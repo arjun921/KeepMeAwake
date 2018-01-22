@@ -12,7 +12,7 @@ def load_page():
 
 while True:
     print("Sleep ended")
-    load_page()
+    print(load_page())
     print("Web page called")
     print("Sleep started...")
     time.sleep(1200)
