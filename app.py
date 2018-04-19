@@ -5,7 +5,7 @@ import time
 
 
 def load_page():
-    req = Request('https://rajasthan-aanganwadi.herokuapp.com', headers={'User-Agent': 'Mozilla/5.0'})
+    req = Request('https://assetmanagement-stage.herokuapp.com', headers={'User-Agent': 'Mozilla/5.0'})
     webpage = urlopen(req).read()
     return webpage
 
